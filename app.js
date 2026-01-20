@@ -9,7 +9,7 @@ const PORT = 3000;
 
 // Define the root path ('/')
 app.get("/", (req, res) => {
-  // Semd text as a response to the client
+  // Send text as a response to the client
   res.send("Hola, Mundo!");
 });
 
